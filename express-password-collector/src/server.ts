@@ -31,4 +31,4 @@ app.post("/userdata", (req, res, next) => {
     }
 });
 
-app.listen(process.env.PORT ||8080, () => console.log("Server running on port 5000, ready for arp poisoning"));
+app.listen(process.env.PORT ||8080, () => console.log(`Server running on port ${process.env.PORT}, ready for arp poisoning`));
